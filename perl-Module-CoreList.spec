@@ -31,9 +31,9 @@ included in a specified perl release. It currently only covers the
 5.7.3, 5.8.0, 5.8.1, 5.8.2 and 5.9.0 releases of perl.
 
 %description -l pl
-Modu³ perla Module::CoreList podaje informacje o modu³ach Perla
-wchodz±cych w sk³ad danej wersji perla. Obecnie zawiera on informacje
-o wersjach perla: 5.003_07, 5.004, 5.004_05, 5.005, 5.005_03, 5.6.0,
+Modu³ Perla Module::CoreList podaje informacje o modu³ach Perla
+wchodz±cych w sk³ad danej wersji Perla. Obecnie zawiera on informacje
+o wersjach Perla: 5.003_07, 5.004, 5.004_05, 5.005, 5.005_03, 5.6.0,
 5.6.1, 5.6.2, 5.7.3, 5.8.0, 5.8.1, 5.8.2 i 5.9.0.
 
 %prep
