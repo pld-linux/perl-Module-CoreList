@@ -39,7 +39,7 @@ o wersjach perla: 5.003_07, 5.004, 5.004_05, 5.005, 5.005_03, 5.6.0,
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
