@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Module
-%define		pnam	CoreList
+%define	pdir	Module
+%define	pnam	CoreList
 Summary:	Module::CoreList Perl module - what modules shipped with versions of Perl
 Summary(pl):	Modu³ Perla Module::CoreList - jakie modu³y zawiera dana wersja Perla
 Name:		perl-Module-CoreList
