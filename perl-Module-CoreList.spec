@@ -9,7 +9,7 @@ Summary:	Module::CoreList Perl module - what modules shipped with versions of pe
 Summary(pl):	Modu³ Perla Module::CoreList - jakie modu³y zawiera dana wersja perla
 Name:		perl-Module-CoreList
 Version:	1.8
-Release:	1
+Release:	2
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -17,7 +17,7 @@ BuildRequires:	perl >= 5.6
 %if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl-Test-Simple
 %endif
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -37,7 +37,8 @@ o wersjach perla: 5.003_07, 5.004, 5.004_05, 5.005, 5.005_03, 5.6.0,
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -52,5 +53,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_sitelib}/Module/*.pm
+%{perl_vendorlib}/Module/*.pm
 %{_mandir}/man[13]/*
