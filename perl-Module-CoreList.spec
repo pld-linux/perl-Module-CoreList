@@ -10,7 +10,8 @@ Summary(pl):	Modu³ Perla Module::CoreList - jakie modu³y zawiera dana wersja Per
 Name:		perl-Module-CoreList
 Version:	1.93
 Release:	1
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d643a6f0fa1b3935c32f638a60e21a19
