@@ -37,7 +37,7 @@ o wersjach perla: 5.003_07, 5.004, 5.004_05, 5.005, 5.005_03, 5.6.0,
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{!?_without_tests:%{__make} test}
 
