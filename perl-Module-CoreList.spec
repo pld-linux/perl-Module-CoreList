@@ -42,8 +42,10 @@ o wersjach perla: 5.003_07, 5.004, 5.004_05, 5.005, 5.005_03, 5.6.0,
 %build
 %{__perl} Build.PL \
 	installdirs=vendor \
+	perl="%{__perl}" \
 	destdir=$RPM_BUILD_ROOT
 ./Build
+
 %{?with_tests:./Build test}
 
 %install
