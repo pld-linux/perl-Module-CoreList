@@ -8,13 +8,13 @@
 Summary:	Module::CoreList Perl module - what modules shipped with versions of Perl
 Summary(pl):	Modu³ Perla Module::CoreList - jakie modu³y zawiera dana wersja Perla
 Name:		perl-Module-CoreList
-Version:	1.93
-Release:	3
+Version:	1.94
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d643a6f0fa1b3935c32f638a60e21a19
+# Source0-md5:	0a5b767117a9c53520e67c1074c4524e
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-Module-Build >= 0.20
