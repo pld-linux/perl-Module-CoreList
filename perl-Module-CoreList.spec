@@ -8,7 +8,7 @@
 Summary:	Module::CoreList Perl module - what modules shipped with versions of perl
 Summary(pl):	Modu³ Perla Module::CoreList - jakie modu³y zawiera dana wersja perla
 Name:		perl-Module-CoreList
-Version:	1.7
+Version:	1.8
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
