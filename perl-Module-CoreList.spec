@@ -8,8 +8,9 @@
 Summary:	Module::CoreList Perl module - what modules shipped with versions of Perl
 Summary(pl):	Modu³ Perla Module::CoreList - jakie modu³y zawiera dana wersja Perla
 Name:		perl-Module-CoreList
+# NOTE: update version list in %description when upgrading
 Version:	1.98
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -27,14 +28,16 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Module::CoreList Perl module gives you information about modules
 included in a specified perl release. It currently only covers the
-5.003_07, 5.004, 5.004_05, 5.005, 5.005_03, 5.6.0, 5.6.1, 5.6.2,
-5.7.3, 5.8.0, 5.8.1, 5.8.2 and 5.9.0 releases of perl.
+5.003_07, 5.004, 5.004_05, 5.005, 5.005_03, 5.005_04, 5.6.0, 5.6.1,
+5.6.2, 5.7.3, 5.8.0, 5.8.1, 5.8.2, 5.8.3, 5.8.4, 5.8.5, 5.8.6, 5.9.0,
+and 5.9.1 releases of perl.
 
 %description -l pl
 Modu³ Perla Module::CoreList podaje informacje o modu³ach Perla
 wchodz±cych w sk³ad danej wersji Perla. Obecnie zawiera on informacje
-o wersjach Perla: 5.003_07, 5.004, 5.004_05, 5.005, 5.005_03, 5.6.0,
-5.6.1, 5.6.2, 5.7.3, 5.8.0, 5.8.1, 5.8.2 i 5.9.0.
+o wersjach Perla: 5.003_07, 5.004, 5.004_05, 5.005, 5.005_03,
+5.005_04, 5.6.0, 5.6.1, 5.6.2, 5.7.3, 5.8.0, 5.8.1, 5.8.2, 5.8.3,
+5.8.4, 5.8.5, 5.8.6, 5.9.0 i 5.9.1.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
