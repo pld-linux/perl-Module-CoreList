@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Module
 %define		pnam	CoreList
-Summary:	Module::CoreList Perl module - what modules shipped with versions of perl
-Summary(pl):	Modu³ Perla Module::CoreList - jakie modu³y zawiera dana wersja perla
+Summary:	Module::CoreList Perl module - what modules shipped with versions of Perl
+Summary(pl):	Modu³ Perla Module::CoreList - jakie modu³y zawiera dana wersja Perla
 Name:		perl-Module-CoreList
 Version:	1.93
 Release:	1
