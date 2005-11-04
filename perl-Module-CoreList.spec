@@ -9,13 +9,13 @@ Summary:	Module::CoreList Perl module - what modules shipped with versions of Pe
 Summary(pl):	Modu³ Perla Module::CoreList - jakie modu³y zawiera dana wersja Perla
 Name:		perl-Module-CoreList
 # NOTE: update version list in %description when upgrading
-Version:	1.98
-Release:	2
+Version:	2.02
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ef50707fb0126e855771313c75f98bee
+# Source0-md5:	3190e2bee70bc146a25e2798691fcf9a
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-Module-Build >= 0.20
@@ -43,18 +43,16 @@ o wersjach Perla: 5.003_07, 5.004, 5.004_05, 5.005, 5.005_03,
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Build.PL \
-	installdirs=vendor \
-	perl="%{__perl}" \
-	destdir=$RPM_BUILD_ROOT
-./Build
-
-%{?with_tests:./Build test}
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor
+%{__make}
+%{?with_tests: %{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-./Build install
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
