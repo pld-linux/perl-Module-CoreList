@@ -6,7 +6,7 @@
 %define		pdir	Module
 %define		pnam	CoreList
 Summary:	Module::CoreList Perl module - what modules shipped with versions of Perl
-Summary(pl):	Modu≥ Perla Module::CoreList - jakie modu≥y zawiera dana wersja Perla
+Summary(pl.UTF-8):   Modu≈Ç Perla Module::CoreList - jakie modu≈Çy zawiera dana wersja Perla
 Name:		perl-Module-CoreList
 # NOTE: update version list in %description when upgrading
 Version:	2.09
@@ -34,9 +34,9 @@ included in a specified perl release. It currently only covers the
 5.8.4, 5.8.5, 5.8.6, 5.8.7, 5.8.8, 5.9.0, 5.9.1, 5.9.2, 5.9.3 and
 5.9.4 releases of perl.
 
-%description -l pl
-Modu≥ Perla Module::CoreList podaje informacje o modu≥ach Perla
-wchodz±cych w sk≥ad danej wersji Perla. Obecnie zawiera on informacje
+%description -l pl.UTF-8
+Modu≈Ç Perla Module::CoreList podaje informacje o modu≈Çach Perla
+wchodzƒÖcych w sk≈Çad danej wersji Perla. Obecnie zawiera on informacje
 o wersjach Perla: 5.000, 5.001, 5.002, 5.003_07, 5.004, 5.004_05, 
 5.005, 5.005_03, 5.005_04, 5.6.0, 5.6.1, 5.6.2, 5.7.3, 5.8.0, 5.8.1, 
 5.8.2, 5.8.3, 5.8.4, 5.8.5, 5.8.6, 5.8.7, 5.8.8, 5.9.0, 5.9.1, 5.9.2,
