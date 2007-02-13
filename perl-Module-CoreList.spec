@@ -6,7 +6,7 @@
 %define		pdir	Module
 %define		pnam	CoreList
 Summary:	Module::CoreList Perl module - what modules shipped with versions of Perl
-Summary(pl.UTF-8):   Moduł Perla Module::CoreList - jakie moduły zawiera dana wersja Perla
+Summary(pl.UTF-8):	Moduł Perla Module::CoreList - jakie moduły zawiera dana wersja Perla
 Name:		perl-Module-CoreList
 # NOTE: update version list in %description when upgrading
 Version:	2.09
