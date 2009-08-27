@@ -9,13 +9,13 @@ Summary:	Module::CoreList Perl module - what modules shipped with versions of Pe
 Summary(pl.UTF-8):	Moduł Perla Module::CoreList - jakie moduły zawiera dana wersja Perla
 Name:		perl-Module-CoreList
 # NOTE: update version list in %description when upgrading
-Version:	2.13
+Version:	2.18
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Module/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	03638d8f941fd0f4b33c9827c084c5f3
+# Source0-md5:	2b66ac49f56f0023b7d17f6c6bfa3b28
 URL:		http://search.cpan.org/dist/Module-CoreList/
 BuildRequires:	perl-Module-Build >= 0.20
 %if %{with tests}
