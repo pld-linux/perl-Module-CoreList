@@ -9,13 +9,13 @@ Summary:	Module::CoreList Perl module - what modules shipped with versions of Pe
 Summary(pl.UTF-8):	Moduł Perla Module::CoreList - jakie moduły zawiera dana wersja Perla
 Name:		perl-Module-CoreList
 # NOTE: update version list in %description when upgrading
-Version:	2.45
+Version:	2.59
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Module/BINGOS/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1773a6d1addbb9bbcaa0e6e90a571208
+# Source0-md5:	ce46604f6cffe7b774473007cffad1be
 URL:		http://search.cpan.org/dist/Module-CoreList/
 %if %{with tests}
 BuildRequires:	perl-Test-Simple
