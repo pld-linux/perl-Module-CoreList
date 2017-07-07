@@ -8,13 +8,13 @@
 Summary:	Module::CoreList Perl module - what modules shipped with versions of Perl
 Summary(pl.UTF-8):	Moduł Perla Module::CoreList - jakie moduły zawiera dana wersja Perla
 Name:		perl-Module-CoreList
-Version:	2.92
+Version:	5.20170621
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Module/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	62ba4838d17fd43fe03a8ebc2799663c
+# Source0-md5:	880d35cdb70353a1ff8c86d70beb5712
 URL:		http://search.cpan.org/dist/Module-CoreList/
 %if %{with tests}
 BuildRequires:	perl-Test-Simple
